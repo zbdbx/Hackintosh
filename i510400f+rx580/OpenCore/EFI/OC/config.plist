@@ -188,7 +188,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>AAA=</data>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -214,7 +214,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>AAA=</data>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -240,7 +240,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>AAA=</data>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -955,7 +955,7 @@
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
-			<false/>
+			<true/>
 			<key>ExtendBTFeatureFlags</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
@@ -1012,20 +1012,20 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>0</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
 			<false/>
 			<key>ApplePanic</key>
-			<true/>
+			<false/>
 			<key>DisableWatchDog</key>
 			<false/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483650</integer>
+			<integer>0</integer>
 			<key>SerialInit</key>
 			<false/>
 			<key>SysReport</key>
@@ -1322,7 +1322,7 @@
 			<key>AppleKeyMap</key>
 			<false/>
 			<key>AppleRtcRam</key>
-			<false/>
+			<true/>
 			<key>AppleSecureBoot</key>
 			<false/>
 			<key>AppleSmcIo</key>
